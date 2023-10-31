@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  margin: 37px;
+}
+
+.navbar .logo{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu ul li {
+    list-style-type:none;
+    display: inline;
+    padding: 10%;
+    font-family:'montserrat'; 
+}
+
+.navbar .menu ul li:hover{
+    background-color: orange;
+}
+
+.navbar .menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+/*kode navbar*/
+
+.main .tulisan h1{
+    font-family:'poppins';
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.main .tulisan p{
+    font-family:'poppins';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main .tulisan button{
+    background-color: orange;
+    color: #fff;
+    width: 205px;
+    height: 68px;
+    font-family:'poppins';
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.main .tulisan button:hover{
+    background-color: black;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.main{
+    margin-top: 8rem;
+}
+
+.main .tulisan{
+    margin-left: 40px;
+    margin-top: 70px;
+
+}
+
+.main .tulisan img{
+    margin-top: 40%;
+}
+
+.main .gambar{
+    margin-left: 10%;
+}
+
+.main .tulisan2 h1{
+ font-family:'poppins';
+ font-size: 48px;
+ font-weight: 500;
+ margin-top: 70px;
+}
+
+.main .tulisan2 p{
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main2 .tulisan h1{
+    font-family: 'poppins';
+    font-size: 48px;
+    font-weight: 500;
+}
+
+
+.palingbawah{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5%;
+}
+
+.palingbawah .gambar .dot-atas{
+    margin-left: 40%;
+}
+
+.palingbawah .gambar .dot-bawah{
+    margin-top: 40%;
+    margin-left: 8%;
+}
+
+.palingbawah .gambar{
+    position: relative;
+    
+}
+
+.palingbawah .gambar .eskrim{
+    position: absolute;
+    top: -30%;
+    margin-right: -21%;
+    margin-left: -33%;
+
+}
+
+.palingbawah .tulisan h1{
+    font-family: 'poppins';
+    font-size: 48px;
+    font-weight: 500;   
+}
+
+.palingbawah .tulisan p{
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.palingbawah .tulisan button{
+    background-color: orange;
+    color: #fff;
+    width: 205px;
+    height: 68px;
+    font-family:'poppins';
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.palingbawah .tulisan button:hover{
+    background-color: black;
+}
+

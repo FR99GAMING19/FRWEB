@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  margin: 37px;
+}
+
+.navbar .logo{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.navbar .menu ul li {
+    list-style-type:none;
+    display: inline;
+    padding: 5%;
+    font-family:'montserrat'; 
+}
+
+.navbar .menu ul li:hover:not(:active){
+    background-color: #005f0d;
+    color :white;
+}
